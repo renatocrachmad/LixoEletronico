@@ -1,0 +1,17 @@
+.home {
+    text-align: center;
+    background-color: #ffffff; /* Branco */
+  }
+  
+  .home-main {
+    padding: 2rem;
+  }
+  
+  .home h2 {
+    color: #264653; /* Tom escuro para contraste */
+  }
+  
+  .home p {
+    color: #f4a261; /* Laranja */
+  }
+  

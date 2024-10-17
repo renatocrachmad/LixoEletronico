@@ -1,0 +1,29 @@
+header {
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+  
+  .navbar-logo {
+    color: #e9c46a; /* Dourado */
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+    
+  }
+  
+  .navbar {
+    background-color: #f4a261; /* Laranja */
+    padding: 1rem;
+  }
+  
+  .navbar-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  .navbar-links li {
+    color: #ffffff; /* Branco */
+    cursor: pointer;
+  }
+  
