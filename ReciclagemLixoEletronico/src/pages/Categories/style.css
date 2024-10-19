@@ -1,0 +1,47 @@
+.categories-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #ffffff; /* Branco */
+    min-height: 100vh;
+  }
+  
+  h2 {
+    color: #f4a261; /* Laranja */
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  
+  .categories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  .category-card {
+    background-color: #e9c46a; /* Dourado */
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+  }
+  
+  .category-card:hover {
+    transform: scale(1.05);
+  }
+  
+  .category-card h3 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+  }
+  
+  .category-card p {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+  

@@ -1,0 +1,25 @@
+.post-container {
+    background-color: #ffffff; /* Branco */
+    padding: 1.5rem;
+    margin: 1rem 0;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .post-image {
+    max-width: 30%; /* Define a largura máxima como 80% do contêiner */
+    height: auto; /* Mantém a proporção da altura */
+    border-radius: 8px; /* Mantém o estilo */
+    margin-bottom: 1rem;
+  }
+  
+  .post-title {
+    color: #f4a261; /* Laranja */
+    margin: 0 0 0.5rem 0;
+  }
+  
+  .post-content {
+    color: #333; /* Cor do texto */
+    line-height: 1.6;
+  }
+  

@@ -1,0 +1,20 @@
+.social-links {
+    text-align: center;
+    margin: 2rem 0;
+  }
+  
+  .socials {
+    margin-top: 1rem;
+  }
+  
+  .socials a {
+    margin: 0 1rem;
+    color: #f4a261; /* Laranja */
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .socials a:hover {
+    color: #e9c46a; /* Dourado */
+  }
+  

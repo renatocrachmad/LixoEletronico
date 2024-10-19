@@ -1,0 +1,36 @@
+.footer {
+    background-color: #f4a261; /* Laranja */
+    padding: 1rem 0;
+    text-align: center;
+    color: #ffffff; /* Branco */
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .footer p {
+    margin: 0;
+    color: #e9c46a; /* Dourado */
+    font-size: 1rem;
+  }
+  
+  .footer-socials {
+    margin-top: 1rem;
+  }
+  
+  .footer-socials a {
+    color: #ffffff; /* Branco */
+    margin: 0 1rem;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .footer-socials a:hover {
+    color: #e9c46a; /* Dourado */
+  }
+  

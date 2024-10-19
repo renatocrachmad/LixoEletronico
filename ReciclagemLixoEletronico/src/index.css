@@ -1,7 +1,24 @@
-body {
-  font-family: Arial, sans-serif;
+/* Garantir que o conteúdo ocupe toda a altura da página */
+html, body {
+  height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #ffffff; /* Fundo branco */
-  color: #264653; /* Texto escuro */
+  font-family: Arial, sans-serif;
+}
+
+/* Definir o layout para ocupar toda a altura da janela */
+#root {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* O conteúdo principal vai expandir conforme o necessário */
+main {
+  flex: 1;
+}
+
+/* Estilos existentes */
+* {
+  box-sizing: border-box;
 }

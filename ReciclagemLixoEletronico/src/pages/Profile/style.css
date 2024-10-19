@@ -1,0 +1,34 @@
+.profile {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .profile h2 {
+    color: #f4a261; /* Laranja */
+    font-size: 2rem;
+  }
+  
+  .profile p {
+    font-size: 1.2rem;
+    color: #264653; /* Azul escuro */
+  }
+  
+  .profile-details {
+    margin-top: 1.5rem;
+    padding: 1rem;
+    border: 1px solid #e9c46a; /* Dourado */
+    background-color: #ffffff; /* Branco */
+    border-radius: 8px;
+    display: inline-block;
+    text-align: left;
+  }
+  
+  .profile-details p {
+    color: #264653; /* Azul escuro */
+    margin: 0.5rem 0;
+  }
+  
+  .profile-details strong {
+    color: #e76f51; /* Vermelho queimado */
+  }
+  
